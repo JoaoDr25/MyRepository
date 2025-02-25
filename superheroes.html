@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhéroes</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 10px 0 0 0;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, auto);
+            gap: 15px;
+            padding: 15px 50px 50px 50px;
+            background-color: #f0f0f0;
+        }
+
+        .space {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: stretch;
+            border-radius: 12px;
+            border: 1px solid black;
+            font-size: 16px;
+            background-color: white;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .space img {
+            max-width: 100%;
+            height: 450px;
+            padding: 0px 0px 20px 0px;
+            border-radius: 12px;
+            cursor: grab;
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .space img:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+        }
+
+        .space h2 {
+            color: black;
+            margin: 0;
+            font-size: 24px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        }
+
+        .space p {
+            color: black;
+            padding: 5px;
+            margin: 0;
+            font-size: 14px;
+            font-family:cursive;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="space">
+            <img src="./imagenes/aquaman.webp" alt="Imagen de Aquaman">
+            <h2>AQUAMAN</h2>
+            <p><b>PODERES:</b> Tiene fuerza y resistencia sobrehumanas. </p>
+            <p><b>DEBILIDADES:</b> Necesita hidratarse constantemente para mantener sus poderes.</p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/batman.jpg" alt="Imagen de Batman">
+            <h2>BATMAN</h2>
+            <p><b>PODERES:</b> Artes marciales y entrenamiento físico de nivel máximo.</p>
+            <p><b>DEBILIDADES:</b> Es completamente humano, vulnerable a heridas mortales. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/captain america.jpg" alt="Imagen de Captain America">
+            <h2>CAPITÁN AMÉRICA</h2>
+            <p><b>PODERES:</b> Tiene fuerza, velocidad y resistencia mejoradas.</p>
+            <p><b>DEBILIDADES:</b> No tiene protección contra ataques psíquicos o mágicos. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/deadpool.jpg" alt="Imagen de Deadpool">
+            <H2>DEADPOOL</H2>
+            <p><b>PODERES:</b> Regeneración extrema que lo hace inmortal y gran agilidad y fuerza mejorada. </p>
+            <p><b>DEBILIDADES:</b> Inestabilidad mental afecta sus decisiones. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/flash.jpg" alt="Imagen de Flash">
+            <H2>FLASH</H2>
+            <p><b>PODERES:</b> Velocidad extrema gracias a la Fuerza de la Velocidad. </p>
+            <p><b>DEBILIDADES:</b> Fatiga física o mental por uso excesivo de su velocidad. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/hulk.webp" alt="Imagen de Hulk">
+            <H2>HULK</H2>
+            <p><b>PODERES:</b> Cuanto más se enfada, más fuerte se vuelve. </p>
+            <p><b>DEBILIDADES:</b> Transformación incontrolada, especialmente cuando se calma. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/iron man.webp" alt="Imagen de Iron Man">
+            <H2>IRON MAN</H2>
+            <p><b>PODERES:</b> Vuelo, rayos repulsores, y protección contra ataques físicos. </p>
+            <p><b>DEBILIDADES:</b> Dependencia del traje; sin él es vulnerable. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/spiderman.png" alt="Imagen de Spiderman">
+            <H2>SPIDERMAN</H2>
+            <p><b>PODERES:</b> Capacidad para trepar paredes y uso de telarañas </p>
+            <p><b>DEBILIDADES:</b> Veneno específico para arañas y ataques sónicos y químicos fuertes. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/superman.jpg" alt="Imagen de Superman">
+            <H2>SUPERMAN</H2>
+            <p><b>PODERES:</b> Fuerza sobrehumana, vuelo a velocidades extremas y visión de rayos x. </p>
+            <p><b>DEBILIDADES:</b> Kryptonita (variedades como verde, roja y negra) y radiación solar roja debilita sus
+                poderes. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/thor.jpg" alt="Imagen de thor">
+            <H2>THOR</H2>
+            <p><b>PODERES:</b> Fuerza divina y control sobre rayos y tormentas.</p>
+            <p><b>DEBILIDADES:</b> Vulnerable a enemigos con magia superior o igual. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/wolverine.jpg" alt="Imagen de Wolverine">
+            <H2>WOLVERINE</H2>
+            <p><b>PODERES:</b> Factor de curación que lo hace casi inmortal y garras retráctiles de adamantium. </p>
+            <p><b>DEBILIDADES:</b> Vulnerable a envenenamiento o magnetismo por su esqueleto metálico. </p>
+        </div>
+        <div class="space">
+            <img src="./imagenes/wonder woman.jpg" alt="Imagen de Wonder Woman">
+            <H2>MUJER MARAVILLA</H2>
+            <p><b>PODERES:</b> Fuerza sobrehumana, velocidad extrema y armamento mágico. </p>
+            <p><b>DEBILIDADES:</b> Vulnerable a armas mágicas o divinas. </p>
+        </div>
+    </div>
+</body>
+
+</html>
